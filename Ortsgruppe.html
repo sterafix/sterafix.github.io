@@ -14,13 +14,13 @@
     <link rel="stylesheet" href="https://cdn.datatables.net/1.10.15/css/dataTables.bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pikaday/1.6.1/css/pikaday.min.css">
     <link rel="stylesheet" href="assets/css/Pretty-Footer.css">
-    <link rel="stylesheet" href="assets/css/untitled.css">
+    <link rel="stylesheet" href="assets/css/title.css">
 </head>
 
 <body>
     <nav class="navbar navbar-light navbar-expand-md" style="background: #292c2f;">
-        <div class="container"><img src="assets/img/Wappen.png" style="width: 40px;margin-right: 10px;"><a class="navbar-brand &quot;hidden-xs&quot;" href="index.html" style="color: white;">Zwinger von den Horloffwiesen</a><button data-toggle="collapse" class="navbar-toggler"
-                data-target="#navcol-1" style="color: white;"><span class="navbar-toggler-icon" style="color: #fff;"></span></button>
+        <div class="container"><img src="assets/img/Wappen.png" style="width: 40px;margin-right: 10px;"><a class="navbar-brand &quot;hidden-xs&quot;" href="index.html">Zwinger von den Horloffwiesen</a><button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1"
+                style="color: white;background: #f2f2f2;"><span class="navbar-toggler-icon" style="color: #fff;"></span></button>
             <div class="collapse navbar-collapse d-md-flex d-lg-flex d-xl-flex justify-content-md-end justify-content-lg-end justify-content-xl-end"
                 id="navcol-1" style="color: rgb(255,255,255);margin-right: 20px;">
                 <ul class="nav navbar-nav d-md-flex justify-content-md-end" style="color: rgb(255,255,255);">
@@ -41,18 +41,31 @@
                 <div class="row align-items-center">
                     <div class="col-md-12 col-lg-5 offset-lg-1 text" style="margin-left: 0px;">
                         <h3 style="font-size: 24px;text-align: left;">Unsere Ortsgruppe</h3>
-                        <p style="text-align: left;">Weiter Infos finden Sie auf der offiziellen Seite der<a href="https://sv-og-reichelsheim.de/"> Ortsgruppe</a>.<br></p>
+                        <p style="text-align: left;">Weiter Infos finden Sie auf der offiziellen Seite der&nbsp;<a href="https://sv-og-reichelsheim.de/" target="_blank">Ortsgruppe</a>.</p>
                     </div>
-                    <div class="col"><img src="assets/img/OG_Historisches_Rathaus_Reichelsheim.jpg" style="width: 500px;"></div>
+                    <div class="col">
+                        <div class="card"></div>
+                        <div class="card"><img class="img-fluid card-img-top w-100 d-block" src="assets/img/OG_Historisches_Rathaus_Reichelsheim.jpg" style="width: 500px;">
+                            <div class="card-body">
+                                <p class="card-text">Das historische Rathaus flankiert von Kriegerdenkmal und evangelischer Kirche.<br></p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
-        <section class="portfolio-block photography">
+        <section id="Fotos" class="portfolio-block photography">
             <div class="container">
                 <div class="row no-gutters">
-                    <div class="col-md-6 col-lg-4 item zoom-on-hover"><img class="img-fluid image" src="assets/img/OG_Heim.jpg"></div>
-                    <div class="col-md-6 col-lg-4 item zoom-on-hover"><img class="img-fluid image" src="assets/img/OG_Platz.jpg"></div>
-                    <div class="col-md-6 col-lg-4 item zoom-on-hover"><img class="img-fluid image" src="assets/img/OG_Zwinger.jpg"></div>
+                    <div class="col-md-4" style="padding: 10px;">
+                        <div class="card"><img class="card-img-top w-100 d-block" src="assets/img/OG_Heim.jpg"></div>
+                    </div>
+                    <div class="col-md-4" style="padding: 10px;">
+                        <div class="card"><img class="card-img-top w-100 d-block" src="assets/img/OG_Platz.jpg"></div>
+                    </div>
+                    <div class="col-md-4" style="padding: 10px;">
+                        <div class="card"><img class="card-img-top w-100 d-block" src="assets/img/OG_Zwinger.jpg"></div>
+                    </div>
                 </div>
             </div>
         </section>

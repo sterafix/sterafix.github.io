@@ -7,31 +7,20 @@
     <title>Contact - JP</title>
     <meta name="description" content="I am JP">
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:300,400,700">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:300,400,700&amp;display=swap">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
     <link rel="stylesheet" href="assets/fonts/fontawesome-all.min.css">
     <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
     <link rel="stylesheet" href="assets/fonts/ionicons.min.css">
     <link rel="stylesheet" href="assets/fonts/typicons.min.css">
     <link rel="stylesheet" href="assets/fonts/fontawesome5-overrides.min.css">
+    <link rel="stylesheet" href="assets/css/gradient-navbar-styles.css">
+    <link rel="stylesheet" href="assets/css/gradient-navbar.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pikaday/1.6.1/css/pikaday.min.css">
     <link rel="stylesheet" href="assets/css/Pretty-Product-List.css">
 </head>
 
 <body>
-    <nav class="navbar navbar-dark navbar-expand-md fixed-top bg-white portfolio-navbar gradient" style="height: 80px;">
-        <div class="container"><a class="navbar-brand logo" href="index.html" style="font-size: 35px;width: 40px;font-family: Montserrat, sans-serif;">3P</a><button data-toggle="collapse" class="navbar-toggler" data-target="#navbarNav"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
-                    <li class="nav-item"><a class="nav-link" href="projects-grid-cards.html">Projects</a></li>
-                    <li class="nav-item"><a class="nav-link" href="cv.html">CV</a></li>
-                    <li class="nav-item"><a class="nav-link active" href="contact.html">Contact</a></li>
-                    <li class="nav-item"></li>
-                </ul>
-            </div>
-        </div>
-    </nav>
     <main class="page contact-page">
         <section class="portfolio-block contact">
             <div class="container">
@@ -43,11 +32,21 @@
     </main>
     <footer class="page-footer">
         <div class="container">
-            <div class="links"><a href="#">About me</a><a href="contact.html">Contact me</a><a href="projects-grid-cards.html">Projects</a></div>
-            <div class="social-icons"><a class="li-ic mr-3" href="https://www.linkedin.com/in/jonas-philipps/" role="button"><i class="fab fa-lg fa-linkedin-in"></i></a><!--Github-->
-<a class="git-ic mr-3" href="https://github.com/sterafix" role="button"><i class="fab fa-lg fa-github"></i></a></div>
+            <div class="links"><a href="#">About me</a><a href="projects.html">Projects</a><a href="cv.html">CV</a></div>
+            <div class="social-icons"><a class="li-ic mr-3" href="https://www.linkedin.com/in/jonas-philipps/" target="_blank" role="button"><i class="fab fa-lg fa-linkedin-in"></i></a><!--Github-->
+<a class="git-ic mr-3" href="https://github.com/sterafix" target="_blank" role="button"><i class="fab fa-lg fa-github"></i></a></div>
         </div>
     </footer>
+    <nav class="navbar navbar-dark navbar-expand-md" id="app-navbar">
+        <div class="container-fluid"><a class="navbar-brand logo" href="index.html" style="font-size: 35px;width: 40px;font-family: Montserrat, sans-serif;">3P</a><button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navcol-1">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item"><a class="nav-link active" href="cv.html">CV</a></li>
+                    <li class="nav-item"><a class="nav-link" href="project.html">Projects</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/pikaday/1.6.1/pikaday.min.js"></script>

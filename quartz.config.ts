@@ -20,38 +20,38 @@ const config: QuartzConfig = {
     ignorePatterns: ["private", "templates", ".obsidian"],
     defaultDateType: "modified",
     theme: {
-      fontOrigin: "googleFonts",
-      cdnCaching: true,
-      typography: {
-        header: "Schibsted Grotesk",
-        body: "Source Sans Pro",
-        code: "IBM Plex Mono",
-      },
-      colors: {
-        lightMode: {
-          light: "#faf8f8",
-          lightgray: "#e5e5e5",
-          gray: "#b8b8b8",
-          darkgray: "#4e4e4e",
-          dark: "#2b2b2b",
-          secondary: "#284b63",
-          tertiary: "#84a59d",
-          highlight: "rgba(143, 159, 169, 0.15)",
-          textHighlight: "#fff23688",
-        },
-        darkMode: {
-          light: "#161618",
-          lightgray: "#393639",
-          gray: "#646464",
-          darkgray: "#d4d4d4",
-          dark: "#ebebec",
-          secondary: "#7b97aa",
-          tertiary: "#84a59d",
-          highlight: "rgba(143, 159, 169, 0.15)",
-          textHighlight: "#b3aa0288",
-        },
-      },
+  fontOrigin: "googleFonts",
+  cdnCaching: true,
+  typography: {
+    header: "Space Grotesk",   // technisch, aber persönlich
+    body: "Inter",             // klar und lesbar
+    code: "JetBrains Mono",   // das Standard für Code
+  },
+  colors: {
+    lightMode: {
+      light: "#f7f6f3",        // leicht warmes Off-White, kein hartes Weiß
+      lightgray: "#e8e6e0",    // subtile Trennlinien
+      gray: "#9a9590",         // sekundärer Text, Icons
+      darkgray: "#3d3a36",     // Fließtext
+      dark: "#1a1815",         // Überschriften
+      secondary: "#4a6fa5",    // Links – gedämpftes Blau, nicht schreiend
+      tertiary: "#2d5a8e",     // Hover
+      highlight: "rgba(74, 111, 165, 0.08)",
+      textHighlight: "#f0e68c88",
     },
+    darkMode: {
+      light: "#111110",        // fast-Schwarz, minimal warm
+      lightgray: "#222220",    // Borders
+      gray: "#555550",         // sekundäre Elemente
+      darkgray: "#a8a49e",     // Fließtext – nicht zu hell
+      dark: "#e8e4de",         // Überschriften
+      secondary: "#7aa2c8",    // Links – gedämpftes Hellblau
+      tertiary: "#9bbdd9",     // Hover
+      highlight: "rgba(122, 162, 200, 0.1)",
+      textHighlight: "#b59a3c55",
+    },
+  },
+},
   },
   plugins: {
     transformers: [

@@ -1,0 +1,2 @@
+- [LinkedIn](www.linkedin.com/in/jonas-philipps)
+- [GitHub](https://github.com/sterafix)

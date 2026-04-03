@@ -8,6 +8,6 @@ I like to build things – in the physical world and the digital one. Physicist 
 
 This is my small corner of the internet. No algorithm, no feed – just things I find worth writing about.
 
+→ [[writing/index|Writing]]
 → [[now|Now]]
 → [[links|Links]]
-Test

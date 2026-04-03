@@ -28,12 +28,7 @@ export const defaultContentPageLayout: PageLayout = {
   left: [
     Component.PageTitle(),
     Component.MobileOnly(Component.Spacer()),
-    Component.Flex({
-      components: [
-        { Component: Component.Darkmode() },
-        { Component: Component.ReaderMode() },
-      ],
-    }),
+    Component.Darkmode(),
     Component.Explorer(),
   ],
   right: [
@@ -49,11 +44,7 @@ export const defaultListPageLayout: PageLayout = {
   left: [
     Component.PageTitle(),
     Component.MobileOnly(Component.Spacer()),
-    Component.Flex({
-      components: [
-        { Component: Component.Darkmode() },
-      ],
-    }),
+    Component.Darkmode(),
     Component.Explorer(),
   ],
   right: [],

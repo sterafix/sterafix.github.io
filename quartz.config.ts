@@ -8,7 +8,7 @@ import * as Plugin from "./quartz/plugins"
  */
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "Quartz 4",
+    pageTitle: "Jonas Philipps",
     pageTitleSuffix: "",
     enableSPA: true,
     enablePopovers: true,
@@ -19,39 +19,40 @@ const config: QuartzConfig = {
     baseUrl: "quartz.jzhao.xyz",
     ignorePatterns: ["private", "templates", ".obsidian"],
     defaultDateType: "modified",
-    theme: {
-      fontOrigin: "googleFonts",
-      cdnCaching: true,
-      typography: {
-        header: "Schibsted Grotesk",
-        body: "Source Sans Pro",
-        code: "IBM Plex Mono",
-      },
-      colors: {
-        lightMode: {
-          light: "#faf8f8",
-          lightgray: "#e5e5e5",
-          gray: "#b8b8b8",
-          darkgray: "#4e4e4e",
-          dark: "#2b2b2b",
-          secondary: "#284b63",
-          tertiary: "#84a59d",
-          highlight: "rgba(143, 159, 169, 0.15)",
-          textHighlight: "#fff23688",
-        },
-        darkMode: {
-          light: "#161618",
-          lightgray: "#393639",
-          gray: "#646464",
-          darkgray: "#d4d4d4",
-          dark: "#ebebec",
-          secondary: "#7b97aa",
-          tertiary: "#84a59d",
-          highlight: "rgba(143, 159, 169, 0.15)",
-          textHighlight: "#b3aa0288",
-        },
-      },
+    // NACHHER:
+theme: {
+  fontOrigin: "googleFonts",
+  cdnCaching: true,
+  typography: {
+    header: "Space Grotesk",
+    body: "Inter",
+    code: "JetBrains Mono",
+  },
+  colors: {
+    lightMode: {
+      light: "#f7f6f3",
+      lightgray: "#e8e6e0",
+      gray: "#9a9590",
+      darkgray: "#3d3a36",
+      dark: "#1a1815",
+      secondary: "#4a6fa5",
+      tertiary: "#2d5a8e",
+      highlight: "rgba(74, 111, 165, 0.08)",
+      textHighlight: "#f0e68c88",
     },
+    darkMode: {
+      light: "#111110",
+      lightgray: "#222220",
+      gray: "#555550",
+      darkgray: "#a8a49e",
+      dark: "#e8e4de",
+      secondary: "#7aa2c8",
+      tertiary: "#9bbdd9",
+      highlight: "rgba(122, 162, 200, 0.10)",
+      textHighlight: "#b59a3c55",
+    },
+  },
+},
   },
   plugins: {
     transformers: [

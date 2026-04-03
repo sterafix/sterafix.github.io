@@ -1,3 +1,133 @@
 @use "./base.scss";
 
 // put your custom CSS here!
+
+// ─── Typografie ───────────────────────────────────────────────────────────────
+
+body {
+  font-feature-settings: "kern" 1, "liga" 1, "calt" 1;
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: -0.01em;
+}
+
+h1, h2, h3, h4 {
+  letter-spacing: -0.03em;
+  font-weight: 600;
+}
+
+article p {
+  line-height: 1.75;
+}
+
+
+// ─── Seiten-Titel (Sidebar) ───────────────────────────────────────────────────
+
+#quartz-root .page-title {
+  font-size: 1rem;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  opacity: 0.55;
+  transition: opacity 0.15s;
+
+  &:hover { opacity: 1; }
+}
+
+
+// ─── Links ───────────────────────────────────────────────────────────────────
+
+article a {
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  transition: border-color 0.15s ease;
+
+  &:hover {
+    border-bottom-color: var(--secondary);
+  }
+}
+
+// Interne Wiki-Links
+a.internal {
+  border-radius: 2px;
+  padding: 0 2px;
+}
+
+
+// ─── Code ────────────────────────────────────────────────────────────────────
+
+pre {
+  border: 1px solid var(--lightgray) !important;
+  border-radius: 4px !important;
+  box-shadow: none !important;
+}
+
+code:not(pre code) {
+  font-size: 0.85em;
+  padding: 1px 5px;
+  border-radius: 3px;
+}
+
+
+// ─── Metadaten & Tags ────────────────────────────────────────────────────────
+
+.content-meta {
+  font-size: 0.8rem;
+  opacity: 0.45;
+}
+
+a.tag-link {
+  font-size: 0.75rem;
+  padding: 2px 8px;
+  border-radius: 2px;
+  border: 1px solid var(--lightgray);
+  background: transparent;
+  transition: border-color 0.15s, background 0.15s;
+
+  &:hover {
+    border-color: var(--secondary);
+    background: var(--highlight);
+    border-bottom-color: var(--secondary);
+  }
+}
+
+
+// ─── Table of Contents ───────────────────────────────────────────────────────
+
+.toc {
+  font-size: 0.8rem;
+  border-left: 2px solid var(--lightgray);
+  padding-left: 0.75rem;
+
+  li a {
+    opacity: 0.6;
+    transition: opacity 0.15s;
+
+    &:hover { opacity: 1; }
+  }
+}
+
+
+// ─── Backlinks ───────────────────────────────────────────────────────────────
+
+.backlinks h3 {
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  opacity: 0.45;
+}
+
+
+// ─── Footer ──────────────────────────────────────────────────────────────────
+
+footer {
+  font-size: 0.75rem;
+  opacity: 0.4;
+}
+
+
+// ─── Trennlinien ─────────────────────────────────────────────────────────────
+
+hr {
+  border: none;
+  border-top: 1px solid var(--lightgray);
+}

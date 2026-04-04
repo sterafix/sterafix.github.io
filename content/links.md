@@ -1,2 +1,2 @@
-- [LinkedIn](www.linkedin.com/in/jonas-philipps)
+- [LinkedIn](https://www.linkedin.com/in/jonas-philipps)
 - [GitHub](https://github.com/sterafix)

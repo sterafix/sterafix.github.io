@@ -15,8 +15,8 @@ This post exists for one reason: to save you that frustration and point you in t
 A number of well-written guides describe a workflow that relies on features in Working Copy that have since changed. Specifically, they reference:
 
 - **“Setup Folder Sync”**, as described in:
-  - [Setting up iOS git-based syncing with mobile app (using Working Copy)]([https://forum.obsidian.md/t/mobile-setting-up-ios-git-based-syncing-with-mobile-app-using-working-copy/16499](https://forum.obsidian.md/t/mobile-setting-up-ios-git-based-syncing-with-mobile-app-using-working-copy/16499)) on the Obsidian Forum
-  - [Obsidian Notes iOS + Working Copy Setup]([https://ryan.himmelwright.net/post/obsidian-ios-setup/](https://ryan.himmelwright.net/post/obsidian-ios-setup/)) by Ryan Himmelwright
+  - [Setting up iOS git-based syncing with mobile app (using Working Copy)](https://forum.obsidian.md/t/mobile-setting-up-ios-git-based-syncing-with-mobile-app-using-working-copy/16499) on the Obsidian Forum
+  - [Obsidian Notes iOS + Working Copy Setup](https://ryan.himmelwright.net/post/obsidian-ios-setup/) by Ryan Himmelwright
 - **“Link Repository to”**, as described in:
   - [Using Working Copy to sync Obsidian on iPadOS](https://blog.j370.me/technical/2025/01/22/obsidian/) by J370
   - [Sync your Obsidian Vault on iOS with GitHub, Working Copy, and Apple Shortcuts](https://meganesulli.com/blog/sync-obsidian-vault-iphone-ipad/) by Megan Sullivan

@@ -13,9 +13,6 @@ Random things that I am up to at the moment:
 Things that I felt the urge to write about:
 → [[writing/index|Writing]]
 
-Find me elsewhere or contact me:
-→ [[links|Links]]
-
 ![[IMG_6263.jpeg]]
 
 

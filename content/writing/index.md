@@ -1,5 +1,5 @@
 ---
-title: writing
+title: Writing
 draft: false
 tags:
 ---

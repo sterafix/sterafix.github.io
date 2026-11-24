@@ -143,3 +143,49 @@ body[data-slug="index"] article p {
 body[data-slug="index"] article {
   padding-top: 2rem;
 }
+
+// ─── Einspaltiges Layout mit Navigation oben ─────────────────────────────────
+
+#quartz-body {
+  grid-template-columns: minmax(0, 1fr) !important;
+  grid-template-areas: "grid-center" "grid-footer" !important;
+  grid-template-rows: auto auto !important;
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 0 1.25rem;
+
+  .sidebar {
+    display: none !important;
+  }
+}
+
+#quartz-body .page-header {
+  margin-top: 2.5rem !important;
+}
+
+#quartz-body header {
+  margin: 0 0 2.5rem 0;
+  gap: 1.25rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid var(--lightgray);
+
+  .page-title {
+    font-size: 0.9rem;
+    white-space: nowrap;
+  }
+
+  .nav-links a {
+    font-size: 0.95rem;
+    color: var(--darkgray);
+    background: none;
+    padding: 0;
+
+    &:hover {
+      color: var(--secondary);
+    }
+  }
+
+  .darkmode {
+    margin: 0;
+  }
+}

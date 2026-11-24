@@ -19,7 +19,6 @@ const config: QuartzConfig = {
     baseUrl: "sterafix.github.io",
     ignorePatterns: ["private", "templates", ".obsidian"],
     defaultDateType: "modified",
-    // NACHHER:
 theme: {
   fontOrigin: "googleFonts",
   cdnCaching: true,

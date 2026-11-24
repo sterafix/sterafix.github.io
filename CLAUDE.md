@@ -51,4 +51,7 @@ Texts must sound like Jonas, not like an AI.
 
 1. Write or change the file and show Jonas the text in the chat.
 2. Apply his corrections.
-3. When he says it is fine: commit with a short message and open a pull request against `v4` (or push to `v4` directly if he asks for it). Merging the PR publishes the site within one to two minutes.
+3. When he says it is fine: commit with a short message and open a pull request against `v4`.
+4. Merge the pull request yourself (Jonas allows this). Before merging a change outside `content/`, run `npx quartz build` and check the output. Merging publishes the site within one to two minutes.
+
+Exception: new posts and changes to `draft` stay unpublished until Jonas says "publish". You may merge a post with `draft: true`, but only set `draft: false` on his word.

@@ -3,7 +3,7 @@ title: Now
 ---
 # 2026-11-24
 
-- I love in Munich now and work for QUBIG here as a Sales Manager. Exicting!
+- I love in Munich now and work for QUBIG here as a Sales Manager. Exciting!
 
 # 2026-04-04
 

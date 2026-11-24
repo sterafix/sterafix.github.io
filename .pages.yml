@@ -1,0 +1,72 @@
+# Pages CMS configuration (https://pagescms.org/docs/configuration/)
+# Edits are committed to the branch you open in Pages CMS. Use "v4",
+# because only pushes to v4 trigger the GitHub Pages deployment.
+
+media:
+  input: content/images
+  output: /images
+
+content:
+  - name: writing
+    label: Writing
+    type: collection
+    path: content/writing
+    format: yaml-frontmatter
+    exclude: ["index.md"]
+    filename: "{primary}.md"
+    view:
+      primary: title
+      fields: [title, date, draft]
+      sort: date
+      order: desc
+    fields:
+      - name: title
+        label: Title
+        type: string
+        required: true
+      - name: date
+        label: Date
+        type: date
+      - name: draft
+        label: Draft (not visible on the website)
+        type: boolean
+        default: true
+      - name: tags
+        label: Tags
+        type: string
+        list: true
+      - name: body
+        label: Text
+        type: rich-text
+        options:
+          format: markdown
+
+  - name: now
+    label: Now
+    type: file
+    path: content/now.md
+    format: yaml-frontmatter
+    fields:
+      - name: title
+        label: Title
+        type: string
+      - name: body
+        label: Text
+        type: rich-text
+        options:
+          format: markdown
+
+  - name: home
+    label: Home
+    type: file
+    path: content/index.md
+    format: yaml-frontmatter
+    fields:
+      - name: title
+        label: Title
+        type: string
+      - name: body
+        label: Text
+        type: rich-text
+        options:
+          format: markdown
